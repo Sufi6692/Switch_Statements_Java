@@ -68,49 +68,28 @@ public class Nested_Switch {
             case 1 -> {
                 System.out.println("Sufi");
                 switch (Process) {
-                    case "SAMSUNG":
-                        System.out.println("IT Dep");
-                        break;
-                    case "MESHO":
-                        System.out.println("MARKETING Dep");
-                        break;
-                    case "GOOGLE":
-                        System.out.println("MANAGEMENT Dep");
-                        break;
-                    default:
-                        System.out.println("Enter a valid process");
+                    case "SAMSUNG" -> System.out.println("IT Dep");
+                    case "MESHO" -> System.out.println("MARKETING Dep");
+                    case "GOOGLE" -> System.out.println("MANAGEMENT Dep");
+                    default -> System.out.println("Enter a valid process");
                 }
             }
             case 2 -> {
                 System.out.println("Qalandar");
                 switch (Process) {
-                    case "SAMSUNG":
-                        System.out.println("IT Dep");
-                        break;
-                    case "MESHO":
-                        System.out.println("MARKETING Dep");
-                        break;
-                    case "GOOGLE":
-                        System.out.println("MANAGEMENT Dep");
-                        break;
-                    default:
-                        System.out.println("Enter a valid process");
+                    case "SAMSUNG" -> System.out.println("IT Dep");
+                    case "MESHO" -> System.out.println("MARKETING Dep");
+                    case "GOOGLE" -> System.out.println("MANAGEMENT Dep");
+                    default -> System.out.println("Enter a valid process");
                 }
             }
             case 3 -> {
                 System.out.println("Ali");
                 switch (Process) {
-                    case "SAMSUNG":
-                        System.out.println("IT Dep");
-                        break;
-                    case "MESHO":
-                        System.out.println("MARKETING Dep");
-                        break;
-                    case "GOOGLE":
-                        System.out.println("MANAGEMENT Dep");
-                        break;
-                    default:
-                        System.out.println("Enter a valid process");
+                    case "SAMSUNG" -> System.out.println("IT Dep");
+                    case "MESHO" -> System.out.println("MARKETING Dep");
+                    case "GOOGLE" -> System.out.println("MANAGEMENT Dep");
+                    default -> System.out.println("Enter a valid process");
                 }
             }
             default -> System.out.println("Enter a valid a EmpID");
